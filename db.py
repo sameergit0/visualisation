@@ -8,5 +8,5 @@ df=pd.DataFrame({
 })
 df
 st.table(df)
-st.line_chart((df["Height"],df["Weight"]))
+st.line_chart(df)
 st.scatter_chart(df)
